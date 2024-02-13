@@ -1,0 +1,118 @@
+
+.reddit_clone-signup_close {
+  text-align: end;
+  margin-top: 20px;
+}
+.reddit_clone-signup {
+  width: 580px;
+  /* height: 72%; */
+  /* width: 30vw; */
+  text-align: center;
+  background-color: white;
+  border-radius: 0.8rem;
+  padding: 10px 50px 20px 50px;
+  position: absolute;
+  pointer-events: all;
+  z-index: 400;
+}
+.reddit_clone-signup_close button {
+  width: 35px;
+  height: 38px;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  color: var(--color-text);
+  border-radius: 50%;
+  background-color: rgb(234,237,239);
+}
+
+.reddit_clone-signup_container {
+  padding: 3rem 2rem;
+}
+
+.reddit_clone-signup_container input {
+  border: none;
+  background-color: rgb(234,237,239);
+  font-family: var(--font-c);
+  color: var(--color-text);
+  
+}
+.reddit_clone-signup a {
+  color: rgb(21, 167, 224);
+  font-family: var(--font-c);
+}
+.reddit_clone-signup_heading h3 {
+  text-align: start;
+  font-family: var(--font-c);
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--color-text);
+}
+.reddit_clone-signup_heading a {
+  text-decoration: none;
+
+}
+.reddit_clone-signup p {
+  text-align: start;
+  font-size: 1.1rem;
+  font-family: var(--font-c);
+  color: var(--color-text);
+  margin-top: 20px;
+}
+.reddit_clone-signup_shortcut {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.googleBtn {
+  margin: 1rem 0;
+  padding: 0.8rem;
+  width: 100%;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  color: var(--color-text);
+  border: 1px solid rgb(234,237,239);
+  background-color: white;
+}
+.googleBtn:hover{
+  background-color: rgba(151, 221, 248, 0.1) ;
+}
+.appleBtn {
+  margin: 1rem 0;
+  padding: 0.8rem;
+  width: 100%;
+  border-radius: 1.5rem;
+  cursor: none;
+  color: var(--color-text);
+  border: 1px solid rgb(234,237,239);
+  background-color: white;
+}
+.reddit_clone-signup_input input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0.8rem;
+  margin: 1rem 0;
+  border-radius: 1.5rem;
+  width: 100%;
+  font-family: var(--font-c);
+  border: 1px solid var(--color-border);
+}
+.reddit_clone-signup_input button {
+  padding: 0.8rem;
+  margin: 1rem 0;
+  border-radius: 1.5rem;
+  width: 100%;
+  cursor: pointer;
+  background-color: rgb(234,237,239);
+  font-weight: bold;
+  color: var(--color-bg);
+  font-family: var(--font-c);
+  border: none;
+}
+input{
+  height: 60px;
+}

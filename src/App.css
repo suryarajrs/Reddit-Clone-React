@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #DAE0E6;
+}
+.reddit_clone-app_authentication {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
